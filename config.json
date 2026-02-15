@@ -1,0 +1,34 @@
+{
+    "watched_markets": [
+        {
+            "market_name": "Will the SEC approve the Solana ETF by March?",
+            "market_id": "0x1234567890abcdef1234567890abcdef1234567890abcdef1234567890abcdef",
+            "search_query": "SEC Solana ETF approval official announcement",
+            "keywords": [
+                "SEC",
+                "Solana",
+                "ETF",
+                "approved",
+                "denied"
+            ],
+            "active": true
+        },
+        {
+            "market_name": "Will OpenAI announce GPT-5 this week?",
+            "market_id": "0xabcdef1234567890abcdef1234567890abcdef1234567890abcdef1234567890",
+            "search_query": "OpenAI GPT-5 release announcement press release",
+            "keywords": [
+                "OpenAI",
+                "GPT-5",
+                "release",
+                "launch"
+            ],
+            "active": true
+        }
+    ],
+    "bot_settings": {
+        "polling_interval_seconds": 60,
+        "kelly_divisor": 4,
+        "min_edge_threshold": 0.10
+    }
+}
